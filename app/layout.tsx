@@ -40,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${anton.variable} ${garamound.variable} ${neue.variable} ${exo2.variable} font-exo`}>{children}</body>
+      <body className={`${exo2.className} ${anton.variable} ${garamound.variable} ${neue.variable} ${exo2.variable} font-exo`}>{children}</body>
     </html>
   );
 }
