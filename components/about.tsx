@@ -49,7 +49,7 @@ export default function About() {
                         </div>
                         <div className="flex gap-2 items-center 2xl:justify-start xl::justify-start lg:justify-start justify-center px-4 py-2 2xl:w-fit xl:w-fit lg:w-fit rounded-md bg-primary4 text-primary1">
                             <FaFilePdf/>
-                            My Resume : <a href="/files/Resume-Danurrizad Ryan Darmoko.pdf" download="Resume-Danurrizad Ryan Darmoko.pdf" className="hover:underline ">Download</a>
+                            My Resume : <a href="/files/Resume_Danurrizad Ryan Darmoko.pdf" download="Resume-Danurrizad Ryan Darmoko.pdf" className="hover:underline ">Download</a>
                         </div>
                     </div>
                 </SlideInFromRight>
