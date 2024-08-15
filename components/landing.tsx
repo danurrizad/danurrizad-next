@@ -2,6 +2,7 @@
 "use client"; 
 import {useState, useEffect} from 'react'
 import Sidebar from './sidebar';
+import { FaArrowDown } from "react-icons/fa6";
 
 
 const LandingPage = () => {
@@ -39,6 +40,9 @@ const LandingPage = () => {
                   <h2 className='2xl:text-[32px] xl:text-[30px] lg:text-[28px] md:text-[32px] text-[22px]' >Frontend Developer: Weaving code into attractive website with responsive and visually stunning designs</h2>
                 </div>
               </div>
+              {/* <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-primary2 rounded-md text-white px-10 py-2 2xl:text-[32px] xl:text-[26px] lg:text-[22px] md:text-[48px] text-[32px]">
+                <a href="#about" className='font-anton  btn-2'><span className=' flex items-center justify-center gap-2'><FaArrowDown/>Get to know more</span></a>
+              </div> */}
           </div>
         </div>
     </div>
