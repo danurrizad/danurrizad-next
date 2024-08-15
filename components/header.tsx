@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <div className='fixed w-screen 2xl:py-10 xl:py-10 lg:py-10 md:py-10 py-4 2xl:px-64 xl:px-56 lg:px-48 md:px-32 px-4 z-50'>
-        <div className='flex justify-between 2xl:text-[27px] xl:text-[25px] lg:text-[20px] md:text-[19px] 2xl:px-20 xl:px-20 lg:px-20 md:px-20 px-4 2xl:py-5 xl:py-4 py-3 bg-primary2 text-white rounded-2xl shadow-md shadow-black font-anton'>
+        <div className='flex items-center justify-between 2xl:text-[27px] xl:text-[25px] lg:text-[20px] md:text-[19px] 2xl:px-20 xl:px-20 lg:px-20 md:px-20 px-4 2xl:py-5 xl:py-4 py-3 bg-primary2 text-white rounded-2xl shadow-md shadow-black font-anton'>
             <div className=''>
                 <a href="/#home">D R Y A N D</a>
             </div>
