@@ -45,7 +45,7 @@ const Project3 = () => {
                 
                 <h1 className='font-bold 2xl:text-[34px] md:text-[36px] pt-10 text-[22px]'>Link to Projects</h1>
                 <div>
-                    <ul className='list-disc px-4 md:text-[27px]'>
+                    <ul className='list-disc px-4 2xl:text-[20px] md:text-[27px] text-[17px]'>
                         <li>Live web : <a href='https://desawisatangorooro.com/' className='hover:underline'>https://desawisatangorooro.com/</a></li>
                     </ul>
                 </div>

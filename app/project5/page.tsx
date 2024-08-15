@@ -35,11 +35,13 @@ const Project5 = () => {
 
                 <h1 className='font-bold 2xl:text-[34px] md:text-[36px] pt-10 text-[22px]'>Features App</h1>
                 <div>
-                    <ul className='list-disc px-4 md:text-[27px]'>
+                    <ul className='list-disc px-4 2xl:text-[20px] md:text-[27px] text-[17px]'>
                         <li>Speech recognition and converts it into text</li>
                         <li>Saving the records file</li>
                         <li>Creating a case report with speech interview</li>
                         <li>History for user case reports</li>
+                        <li>Create, edit, update, and delete case reports</li>
+                        <li>Signature add on case report</li>
                     </ul>
                 </div>
                 
@@ -54,7 +56,7 @@ const Project5 = () => {
                 
                 <h1 className='font-bold 2xl:text-[34px] md:text-[36px] pt-10 text-[22px]'>Link to Projects</h1>
                 <div>
-                    <ul className='list-disc px-4 md:text-[27px]'>
+                    <ul className='list-disc px-4 2xl:text-[20px] md:text-[27px] text-[17px]'>
                         {/* <li>Repository: <a href='https://github.com/danurrizad/web-nft-marketplace' className='hover:underline'>https://github.com/danurrizad/web-nft-marketplace</a></li> */}
                         {/* <li>Live web : <a href='https://dengar-bpjs.vercel.app' className='hover:underline'>https://dengar-bpjs.vercel.app</a></li> */}
                     </ul>

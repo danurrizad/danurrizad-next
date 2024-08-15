@@ -38,7 +38,7 @@ const Project4 = () => {
 
                 <h1 className='font-bold 2xl:text-[34px] md:text-[36px] pt-10 text-[22px]'>Features App</h1>
                 <div>
-                    <ul className='list-disc px-4'>
+                    <ul className='list-disc px-4 2xl:text-[20px] md:text-[27px] text-[17px]'>
                         <li>Login admin for accessing forecasting section</li>
                         <li>CSV uploading and visualization with Chart.js</li>
                         <li>Forecasting method with Flask</li>
@@ -58,7 +58,7 @@ const Project4 = () => {
                 
                 <h1 className='font-bold 2xl:text-[34px] md:text-[36px] pt-10 text-[22px]'>Link to Projects</h1>
                 <div>
-                    <ul className='list-disc px-4 md:text-[27px]'>
+                    <ul className='list-disc px-4 2xl:text-[20px] md:text-[27px] text-[17px]'>
                         <li>Repository: <a href='https://github.com/danurrizad/defect-detection-batik-system' className='hover:underline'>https://github.com/danurrizad/defect-detection-batik-system</a></li>
                         <li>Live web : <a href='https://batik-management-system.netlify.app/' className='hover:underline'>https://batik-management-system.netlify.app/</a></li>
                     </ul>
