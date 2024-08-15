@@ -29,15 +29,17 @@ const LandingPage = () => {
   return (
     <div>
         <Sidebar/>
-        <div id="home" className='2xl:px-40 xl:px-36 lg:px-32 md:px-24 px-4 py-40 bg-primary4 min-h-screen background-pattern'>
-            <div className='flex justify-center items-center'>
-              <div className='flex flex-col items-start'>
-                <h1 className='text-primary1 2xl:text-[72px] xl:text-[72px] lg:text-[64px] md:text-[72px] text-[36px] font-anton'>Hi, I'm
-                    <div className='typewriter underline'>{text}<span className="animate-blink">|</span></div>
-                </h1>
-                <h2 className='2xl:text-[32px] xl:text-[30px] lg:text-[28px] md:text-[32px] text-[22px]' >Frontend Developer: Weaving code into attractive website with responsive and visually stunning designs</h2>
+        <div className="background-pattern">
+          <div id="home" className='z-0 2xl:px-40 xl:px-36 lg:px-32 md:px-24 px-4 py-40  min-h-screen '>
+              <div className='flex justify-center items-center'>
+                <div className='flex flex-col items-start'>
+                  <h1 className='text-primary1 2xl:text-[72px] xl:text-[72px] lg:text-[64px] md:text-[72px] text-[36px] font-anton'>Hi, I'm
+                      <div className='typewriter underline'>{text}<span className="animate-blink">|</span></div>
+                  </h1>
+                  <h2 className='2xl:text-[32px] xl:text-[30px] lg:text-[28px] md:text-[32px] text-[22px]' >Frontend Developer: Weaving code into attractive website with responsive and visually stunning designs</h2>
+                </div>
               </div>
-            </div>
+          </div>
         </div>
     </div>
   )
