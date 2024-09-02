@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import Header2 from "@/components/header2";
 import LandingPage from "@/components/landing";
 import Projects from "@/components/projects";
+import SlicingWeb from "@/components/slicingWeb";
 // import ProjectsOverview from "@/components/projectsOverview";
 import Image from "next/image";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <About/>
       {/* <ProjectsOverview/> */}
       <Projects/>
+      <SlicingWeb/>
       <Contact/>
       <Footer/>
     </main>
