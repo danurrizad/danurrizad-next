@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Anton, EB_Garamond, Bebas_Neue, Exo_2 } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,7 +41,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${exo2.className} ${anton.variable} ${garamound.variable} ${neue.variable} ${exo2.variable} font-exo`}>{children}</body>
+      <body className={`${exo2.className} ${anton.variable} ${garamound.variable} ${neue.variable} ${exo2.variable} font-exo`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
