@@ -1,25 +1,25 @@
 {
     "projects": [
+      {
+          "id": "1",
+          "name": "NFT Emporium",
+          "description": "Project from internship program at PT Graphie Global Interaktif. Web-based application for an NFT Marketplace.",
+          "image": "/img/project-1-cover.png",
+          "detailsUrl": "/project1"
+      },
+    
         {
-            "id": "1",
-            "name": "NFT Emporium",
-            "description": "Project from internship program at PT Graphie Global Interaktif. Web-based application for an NFT Marketplace.",
-            "image": "/img/project-4.png",
-            "detailsUrl": "/project1"
+          "id": "2",
+          "name": "Skin First",
+          "description": "Project from campus called Senior Project which contains web development, cloud computing, and Artificial Intelligence implementation.",
+          "image": "/img/project-3.png",
+          "detailsUrl": "/project2"
         },
-      
-          {
-            "id": "2",
-            "name": "Skin First",
-            "description": "Project from campus called Senior Project which contains web development, cloud computing, and Artificial Intelligence implementation.",
-            "image": "/img/project-3.png",
-            "detailsUrl": "/project2"
-          },
       {
         "id": "3",
         "name": "KKN",
         "description": "Community Service Program (KKN) project. Developing website in order to improve the village economy.",
-        "image": "/img/project-2.png",
+        "image": "/img/project-3-cover.png",
         "detailsUrl": "/project3"
       },
       
@@ -29,7 +29,7 @@
         "id": "4",
         "name": "Batik Management System",
         "description": "Capstone project from campus which develop a web-based application for batik defect detection and sales forecasting.",
-        "image": "/img/project-1.png",
+        "image": "/img/project-4-cover.png",
         "detailsUrl": "/project4"
       },
 
@@ -37,7 +37,7 @@
         "id": "5",
         "name": "Dengar",
         "description": "Freelance project from BPJS Ketenagakerjaan. Web-based application with Speech-to-Text for creating a case report.",
-        "image": "/img/project-5.png",
+        "image": "/img/project-5-cover.png",
         "detailsUrl": "/project5"
       }
     ]

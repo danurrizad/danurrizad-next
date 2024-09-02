@@ -28,8 +28,19 @@ const config: Config = {
         'neue': ['var(--font-neue)'],
         'exo': ['var(--font-exo-2)'],
       },
+      animation: {
+        'loop-scroll': 'loop-scroll 50s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      }  
     },
   },
-  plugins: [],
+  plugins: [
+    require("@designbycode/tailwindcss-text-stroke")
+  ],
 };
 module.exports = withMT(config);
