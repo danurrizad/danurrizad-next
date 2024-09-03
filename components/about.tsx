@@ -14,7 +14,7 @@ export default function About() {
 
     return (
     // <div id='about' className='min-h-screen bg-primary1 2xl:px-40 xl:px-36 lg:px-32 md:px-32 px-4 pt-40'>
-    <div className="bg-primary1 flex flex-col items-center">
+    <div className="bg-primary1 flex flex-col items-center overflow-x-hidden">
         <div id='about' className='justify-center pt-40 2xl:w-[1200px]  w-full 2xl:px-0 px-2'>
             <h1 className='text-center text-primary4 text-[42px] pb-10 font-anton'>About Me</h1>
             <div className='text-primary4 flex 2xl:flex-row xl:flex-row lg:flex-row flex-col items-center justify-between gap-0'>

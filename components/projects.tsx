@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     // <div id='projects' className='min-h-screen bg-primary4 2xl:p-40 xl:px-36 lg:px-32 md:px-24 px-4 py-40 '>
-    <div className="bg-primary4 flex flex-col items-center z-20 relative">
+    <div className="bg-primary4 flex flex-col items-center z-20 relative overflow-x-hidden">
         <div id='projects' className=' 2xl:w-[1200px] w-full 2xl:px-0 px-4 py-40 '>
             <h1 className='text-center text-primary1 text-[42px] pb-10 font-anton'>Projects</h1>
             <div className='flex flex-col justify-start gap-40'>

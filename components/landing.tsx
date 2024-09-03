@@ -35,7 +35,11 @@ const LandingPage = () => {
           {/* <div id="home" className='z-0 2xl:px-80 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full'> */}
           <div id="home" className='z-0 2xl:w-[1200px] w-full 2xl:px-0 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full relative'>
             <div className='absolute z-40 w-full left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/4'>
-              <h1 className='2xl:text-[180px] text-[60px] text-transparent 2xl:text-stroke-[5px] text-stroke-[2px] text-stroke-primary1 font-anton text-center select-none'>WEB DEVELOPER</h1>
+              <div className='2xl:text-[180px] text-[60px] font-anton text-transparent text-center select-none'>
+                {/* <h1 className="animate-textHeadingAnimate tracking-[10px] text-stroke-3">WEB DEVELOPER</h1> */}
+                {/* <text className="textHeading">WEB DEVELOPER</text> */}
+                  <h1 className='text-stroke-primary1 2xl:text-stroke-3 text-stroke-1'>WEB DEVELOPER</h1>
+              </div>
             </div>
             <Sidebar/>
             <div className="flex flex-col justify-center items-center ">

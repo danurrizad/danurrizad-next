@@ -5,7 +5,7 @@ import SlideInFromRight from './slide_right'
 
 const SlicingWeb = () => {
   return (
-    <div className="bg-primary1 flex flex-col justify-center items-center">
+    <div className="bg-primary1 flex flex-col justify-center items-center overflow-x-hidden">
         <div id="slicing-web" className="2xl:w-[1200px] w-full h-full 2xl:px-0 px-4 py-40 ">
             <h1 className='text-center text-primary4 text-[42px] pb-10 font-anton'>Slicing Web</h1>
             <div className='flex flex-col justify-start gap-40'>

@@ -245,6 +245,34 @@ width: 70%;
   background-position: -200% 0;
 }
 
+
+
+/* @keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(19, 100%, 50%);
+    
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: -20%;
+    fill: hsla(189, 100%, 50%, 0);
+  }
+  
+}
+
+text {
+  letter-spacing: 10px;
+  stroke: black;
+  font-size: 150px;
+  font-weight: 700;
+  stroke-width: 3;
+ 
+  animation: textAnimate 5s infinite alternate;
+  
+} */
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
