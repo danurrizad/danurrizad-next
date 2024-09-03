@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='flex 2xl:flex-row xl:flex-row lg:flex-row flex-col justify-between 2xl:gap-20 gap-10 text-white text-[14px]'>
                 <div className='2xl:w-1/2 xl:w-1/2 lg:w-1/2'>
                     <h1 className='pb-4 md:text-[19px] font-anton'>DRYAND</h1>
-                    <h2 className='md:text-[19px]'>Frontend Developer: Weaving code into attractive website with responsive and visually stunning designs.</h2>
+                    <h2 className='md:text-[19px]'>Web Developer: Weaving code into attractive website with responsive and visually stunning designs.</h2>
                 </div>
                 <div>
                     <h1 className='pb-4 md:text-[19px] font-anton'>SOCIAL MEDIA</h1>
