@@ -44,29 +44,31 @@ const LandingPage = () => {
         <div className="background-pattern flex justify-center">
           {/* <div id="home" className='z-0 2xl:px-80 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full'> */}
           <div id="home" className='z-0 2xl:w-[1200px] w-full 2xl:px-0 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full relative'>
-            <div className='absolute z-40 w-full top-1/2 2xl:pl-20 pl-0 -translate-y-1/4 '>
-              <div className='2xl:text-[180px] text-[60px] font-anton text-transparent select-none flex justify-center'>
-                  <div className='text-stroke-primary1 w-full 2xl:text-stroke-3 text-stroke-1 flex justify-center relative 2xl:gap-10 gap-2 overflow-hidden z-10'>
-                    <p className="w-fit">WEB {' '}</p>
-                    <span className=" w-full">
-                      <span
+            
+            <div className='absolute z-40 w-full top-1/2 -translate-y-1/4 2xl:ml-0 -ml-4'>
+              <div className='2xl:text-[180px] text-[60px] font-anton text-transparent select-none '>
+                  <div className='text-stroke-primary1 w 2xl:text-stroke-3 text-stroke-1 z-10 overflow-hidden'>
+                    <p className="text-center text-stroke-0">.</p>
+                    <div className="w-full flex justify-center items-start relative bg-blue-400">
+                      <h1
                         className={`absolute transition-transform duration-500 ${
                           isDeveloper ? 'animate-scrollUp' : 'animate-scrollDown'
                         }`}
                       >
-                        DEVELOPER
-                      </span>
-                      <span
+                        WEB DEVELOPER
+                      </h1>
+                      <h1
                         className={`absolute transition-transform duration-500 ${
                           !isDeveloper ? 'animate-scrollUp' : 'animate-scrollDown'
                         }`}
                       >
-                        DESIGNER
-                      </span>
-                    </span>
+                        WEB DESIGNER
+                      </h1>
+                    </div>
                   </div>
               </div>
             </div>
+            
             <Sidebar/>
             <div className="flex flex-col justify-center items-center ">
               <h1 className='text-primary1 2xl:text-[54px] xl:text-[72px] lg:text-[64px] md:text-[72px] text-[32px] font-anton text-center'>Hi, I'm 
