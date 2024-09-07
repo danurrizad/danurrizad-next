@@ -44,9 +44,9 @@ const LandingPage = () => {
         <div className="background-pattern flex justify-center">
           {/* <div id="home" className='z-0 2xl:px-80 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full'> */}
           <div id="home" className='z-0 2xl:w-[1200px] w-full 2xl:px-0 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full relative'>
-            <div className='absolute z-40 w-full top-1/2 pl-20 -translate-y-1/4 '>
+            <div className='absolute z-40 w-full top-1/2 2xl:pl-20 pl-0 -translate-y-1/4 '>
               <div className='2xl:text-[180px] text-[60px] font-anton text-transparent select-none flex justify-center'>
-                  <div className='text-stroke-primary1 w-full 2xl:text-stroke-3 text-stroke-1 flex justify-center relative gap-10 overflow-hidden '>
+                  <div className='text-stroke-primary1 w-full 2xl:text-stroke-3 text-stroke-1 flex justify-center relative 2xl:gap-10 gap-2 overflow-hidden z-10'>
                     <p className="w-fit">WEB {' '}</p>
                     <span className=" w-full">
                       <span
@@ -72,7 +72,7 @@ const LandingPage = () => {
               <h1 className='text-primary1 2xl:text-[54px] xl:text-[72px] lg:text-[64px] md:text-[72px] text-[32px] font-anton text-center'>Hi, I'm 
                   <div className='typewriter underline'> {text}<span className="animate-blink">|</span></div>
               </h1>
-              <h1 className=" text-center 2xl:text-[28px] text-[20px]">
+              <h1 className=" text-center 2xl:text-[28px] text-[20px] z-30 relative">
               "Weaving code into attractive website with responsive and visually stunning designs"
               </h1>
             </div>
