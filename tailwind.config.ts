@@ -30,12 +30,22 @@ const config: Config = {
       },
       animation: {
         'loop-scroll': 'loop-scroll 50s linear infinite',
+        'scrollUp': 'scrollUp 0.5s ease-in-out forwards',
+        'scrollDown': 'scrollDown 0.5s ease-in-out forwards',
       },
       keyframes: {
         'loop-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
-        }
+        },
+        'scrollUp': {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        'scrollDown': {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-100%)' },
+        },
       }  
     },
   },

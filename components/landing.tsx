@@ -29,16 +29,42 @@ const LandingPage = () => {
         type();
       }, []);
 
+    const [isDeveloper, setIsDeveloper] = useState(true);
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setIsDeveloper((prev) => !prev);
+      }, 2000); // Ganti setiap 2 detik
+
+      return () => clearInterval(interval);
+    }, []);
+
   return (
     <div>
         <div className="background-pattern flex justify-center">
           {/* <div id="home" className='z-0 2xl:px-80 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full'> */}
           <div id="home" className='z-0 2xl:w-[1200px] w-full 2xl:px-0 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full relative'>
-            <div className='absolute z-40 w-full left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/4'>
-              <div className='2xl:text-[180px] text-[60px] font-anton text-transparent text-center select-none'>
-                {/* <h1 className="animate-textHeadingAnimate tracking-[10px] text-stroke-3">WEB DEVELOPER</h1> */}
-                {/* <text className="textHeading">WEB DEVELOPER</text> */}
-                  <h1 className='text-stroke-primary1 2xl:text-stroke-3 text-stroke-1'>WEB DEVELOPER</h1>
+            <div className='absolute z-40 w-full top-1/2 pl-20 -translate-y-1/4 '>
+              <div className='2xl:text-[180px] text-[60px] font-anton text-transparent select-none flex justify-center'>
+                  <div className='text-stroke-primary1 w-full 2xl:text-stroke-3 text-stroke-1 flex justify-center relative gap-10 overflow-hidden '>
+                    <p className="w-fit">WEB {' '}</p>
+                    <span className=" w-full">
+                      <span
+                        className={`absolute transition-transform duration-500 ${
+                          isDeveloper ? 'animate-scrollUp' : 'animate-scrollDown'
+                        }`}
+                      >
+                        DEVELOPER
+                      </span>
+                      <span
+                        className={`absolute transition-transform duration-500 ${
+                          !isDeveloper ? 'animate-scrollUp' : 'animate-scrollDown'
+                        }`}
+                      >
+                        DESIGNER
+                      </span>
+                    </span>
+                  </div>
               </div>
             </div>
             <Sidebar/>
