@@ -21,7 +21,7 @@ export default function About() {
                     <SlideInFromRight>
                         {/* <div className=' 2xl:pl-20 xl:pl-20 lg:pl-20 flex flex-col justify-between 2xl:gap-20 xl:gap-10 lg:gap-10 md:gap-20 gap-20 2xl:text-[21px] xl:text-[15px] lg:text-[16px] md:text-[27px] text-[17px]'> */}
                         <div className=' grid 2xl:grid-cols-2 2xl:px-20 2xl:gap-40 xl:gap-10 lg:gap-10 md:gap-20 gap-20 2xl:text-[21px] xl:text-[15px] lg:text-[16px] md:text-[27px] text-[17px]'>
-                            <h2 className=' 2xl:text-left xl:text-left lg:text-left text-center' >I'm a final year student at Universitas Gadjah Mada majoring in Information Engineering. I have a strong passion in software engineering, especially <span className=' font-extrabold'>Frontend Web Development</span>. </h2>
+                            <h2 className=' 2xl:text-left xl:text-left lg:text-left text-center' >I'm a fresh graduate from Information Engineering at Universitas Gadjah Mada. I have a strong passion in software engineering, especially <span className=' font-extrabold'>Frontend Web Development</span>. </h2>
                             <div className=" flex flex-col items-center ">
                                 <div className='w-full pb-10 ' >
                                     {/* <h1 className='text-center text-primary4 p-4 font-bold' >My Skills</h1> */}
