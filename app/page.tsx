@@ -7,6 +7,7 @@ import LandingPage from "@/components/landing";
 import Projects from "@/components/projects";
 import SlicingWeb from "@/components/slicingWeb";
 // import ProjectsOverview from "@/components/projectsOverview";
+import ProjectCarousel from "@/components/projects_carousel";
 import Image from "next/image";
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <LandingPage/>
       <About/>
       {/* <ProjectsOverview/> */}
+      {/* <ProjectCarousel/> */}
       <Projects/>
       <SlicingWeb/>
       <Contact/>

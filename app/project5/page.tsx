@@ -4,9 +4,16 @@ import React from 'react'
 import Header2 from '@/components/header2'
 import Footer from '@/components/footer'
 import ScrollToTop from '@/components/scroll_top'
-import { Carousel, IconButton } from "@material-tailwind/react";
 import { FaCircleChevronRight, FaCircleChevronLeft } from "react-icons/fa6";
 import Image from "next/image"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+  } from "@/components/ui/carousel"
+  import Autoplay from "embla-carousel-autoplay"
 
 const Project5 = () => {
   return (
@@ -16,40 +23,31 @@ const Project5 = () => {
             <ScrollToTop />
             <div className=' 2xl:w-[1200px] w-full 2xl:px-20 xl:px-36 lg:px-32 md:px-24 px-4 pt-40 h-full'>
                 <h1 className='text-center text-[37px] pb-10 font-anton text-primary1'>Dengar</h1>
-                <div className='flex justify-center w-full  bg-primary2 p-0 rounded-xl duration-[3000ms]'>
-                    <Carousel  prevArrow={({ handlePrev }) => (
-                                    <IconButton
-                                        variant="text"
-                                        // color="black"
-                                        size="lg"
-                                        onClick={handlePrev}
-                                        className="!absolute top-2/4 left-4 -translate-y-2/4"
-                                        placeholder={""}
-                                        >
-                                        <FaCircleChevronLeft className="text-[40px] text-primary2"/>
-                                    </IconButton>
-                                )}
-                                nextArrow={({ handleNext }) => (
-                                    <IconButton
-                                        variant="text"
-                                        // color="black"
-                                        size="lg"
-                                        onClick={handleNext}
-                                        className="!absolute top-2/4 !right-4 -translate-y-2/4"
-                                        placeholder={""}
-                                        >
-                                        <FaCircleChevronRight className="text-[40px] text-primary2"/>
-                                    </IconButton>
-                                )} 
-                                loop className="rounded-xl pb-10 z-0 text-black w-full h-full bg-primary2 duration-[3000ms]" placeholder={<div>Loading...</div>}>
-                        <Image width={1920} height={1080} src="/img/project-5.png" alt="project5-1" className="h-full w-full object-cover"/>
-                        <Image width={1920} height={1080} src="/img/project5/project-5-1.png" alt="project5-2" className="h-full w-full object-cover"/>
-                        <Image width={1920} height={1080} src="/img/project5/project-5-2.png" alt="project5-3" className="h-full w-full object-cover"/>
-                        <Image width={1920} height={1080} src="/img/project5/project-5-3.png" alt="project5-4" className="h-full w-full object-cover"/>
-                        <Image width={1920} height={1080} src="/img/project5/project-5-5.png" alt="project5-5" className="h-full w-full object-cover"/>
-                        <Image width={1920} height={1080} src="/img/project5/project-5-6.png" alt="project5-6" className="h-full w-full object-cover"/>
-                        <Image width={1920} height={1080} src="/img/project5/project-5-7.png" alt="project5-7" className="h-full w-full object-cover"/>
-                        <Image width={1920} height={1080} src="/img/project5/project-5-8.png" alt="project5-8" className="h-full w-full object-cover"/>
+                <div className='flex justify-center w-full  bg-transparent p-0 rounded-xl duration-[3000ms] overflow-hidden'>
+                    <Carousel
+                        opts={{
+                            align: "start",
+                            loop: true
+                        }}
+                        plugins={[
+                            Autoplay({
+                                delay: 2000,
+                            }),
+                            ]}
+                        className="w-100"
+                        >
+                        <CarouselContent className='h-50'>
+                            { Array.from({ length: 8 }, (_, i) => i + 1).map((number, index)=>(
+                                <CarouselItem key={index}>
+                                    <div className="rounded-xl flex h-full items-center justify-center relative overflow-hidden">
+                                    <Image src={`/img/project5/project-5-${index}.png`} alt={`project5-${index}`} height={800} width={1600} className=''/>
+                                    </div>
+                                </CarouselItem>
+
+                            ))}
+                        </CarouselContent>
+                        <CarouselPrevious />
+                        <CarouselNext />
                     </Carousel>
                 </div>
 

@@ -1,44 +1,88 @@
 {
     "projects": [
       {
-          "id": "1",
-          "name": "NFT Emporium",
-          "description": "Project from internship program at PT Graphie Global Interaktif. Web-based application for an NFT Marketplace.",
-          "image": "/img/project-1-cover.png",
-          "detailsUrl": "/project1"
+        "id": "1",
+        "name": "NFT Emporium",
+        "description": "Project from internship program at PT Graphie Global Interaktif. Web-based application for an NFT Marketplace.",
+        "image": "/img/project-1-cover.png",
+        "detailsUrl": "/project1",
+        "description2": "Web-based application for NFT Marketplace",
+        "logo": ["react", "tailwind", "web3"],
+        "date": "January 2023 - March 2023",
+        "duration": "3 months",
+        "type": "College Project"
       },
-    
-        {
-          "id": "2",
-          "name": "Skin First",
-          "description": "Project from campus called Senior Project which contains web development, cloud computing, and Artificial Intelligence implementation.",
-          "image": "/img/project-3.png",
-          "detailsUrl": "/project2"
-        },
+      {
+        "id": "2",
+        "name": "Skin First",
+        "description": "Project from campus called Senior Project which contains web development, cloud computing, and Artificial Intelligence implementation.",
+        "image": "/img/project-3.png",
+        "detailsUrl": "/project2",
+        "description2": "Web-based application for skin diseases detection",
+        "logo": ["react", "tailwind", "express", "figma"],
+        "date": "April 2023 - June 2023",
+        "duration": "3 months",
+        "type": "College Project"
+      },
       {
         "id": "3",
-        "name": "KKN",
+        "name": "Desa Wisata Ngoro-oro",
         "description": "Community Service Program (KKN) project. Developing website in order to improve the village economy.",
         "image": "/img/project-3-cover.png",
-        "detailsUrl": "/project3"
+        "detailsUrl": "/project3",
+        "description2": "Village profile website at community service",
+        "logo": ["wordpress", "css", "js", "figma"],
+        "date": "July 2023 - August 2023",
+        "duration": "2 months",
+        "type": "College Project"
       },
-      
-
-
       {
         "id": "4",
         "name": "Batik Management System",
         "description": "Capstone project from campus which develop a web-based application for batik defect detection and sales forecasting.",
         "image": "/img/project-4-cover.png",
-        "detailsUrl": "/project4"
+        "detailsUrl": "/project4",
+        "description2": "Web-based application for batik defect detection and sales forecasting",
+        "logo": ["react", "tailwind", "firebase"],
+        "date": "September 2023 - November 2023",
+        "duration": "3 months",
+        "type": "College Project"
       },
-
       {
         "id": "5",
         "name": "Dengar",
         "description": "Freelance project from BPJS Ketenagakerjaan. Web-based application with Speech-to-Text for creating a case report.",
         "image": "/img/project-5-cover.png",
-        "detailsUrl": "/project5"
+        "detailsUrl": "/project5",
+        "description2": "Text-to-Speech web-based application for creating report",
+        "logo": ["next", "tailwind", "firebase", "figma"],
+        "date": "July 2024 -  August 2024",
+        "duration": "2 months",
+        "type": "Freelance Project"
+      },
+      {
+        "id": "6",
+        "name": "Toyota Andon Visualization",
+        "description": "",
+        "image": "/img/project-6-cover.png",
+        "detailsUrl": "/project6",
+        "description2": "Web-based management for monitoring supply consumption",
+        "logo": ["react", "express", "bootstrap", "figma"],
+        "date": "December 2024 -  January 2025",
+        "duration": "2 months",
+        "type": "Work Project"
+      },
+      {
+        "id": "7",
+        "name": "Toyota Warehouse Receiving",
+        "description": "",
+        "image": "/img/project-7-cover.png",
+        "detailsUrl": "/project7",
+        "description2": "Web-based app for monitoring vendor and material receiving",
+        "logo": ["react", "bootstrap", "figma"],
+        "date": "January 2025 -  February 2025",
+        "duration": "2 months",
+        "type": "Work Project"
       }
     ]
   }

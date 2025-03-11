@@ -78,31 +78,11 @@ const LandingPage = () => {
               "Weaving code into attractive website with responsive and visually stunning designs"
               </h1>
             </div>
-            {/* <div className="absolute left-1/2 -translate-x-1/2 2xl:text-[72px] xl:text-[72px] lg:text-[64px] md:text-[72px] text-[36px] font-anton">
-              <div className='typewriter underline'> Web Developer<span className="animate-blink">|</span></div>
-            </div> */}
             <div className="flex justify-center 2xl:pt-10 pt-32 w-full relative">
               <Image className="z-40" loading='lazy' src="/img/profile-picture-1.png" height={300} width={300} alt="profile-picture"/>
               <div className="bg-primary2 2xl:w-[500px] 2xl:h-[300px] w-[375px] h-[300px] rounded-t-full absolute bottom-0 left-1/2 -translate-x-1/2 z-10"></div>
             </div>
-            {/* <div className="bg-white absolute bottom-1/3 translate-y-1/2 h-[200px] flex items-center">
-              Frontend Web Developer
-            </div> */}
-
-              {/* <div className='flex justify-center items-center'>
-                <div className='flex flex-col items-center'>
-                  <div className="bg-primary1 pt-10 px-10 rounded-t-[100px] ">
-                    <Image src="/img/profile-picture-1.png" height={300} width={300} alt="profile-picture"/>
-                  </div>
-                  <h1 className='text-primary1 2xl:text-[72px] xl:text-[72px] lg:text-[64px] md:text-[72px] text-[36px] font-anton'>Hi, I'm 
-                      <span className='typewriter underline'> {text}<span className="animate-blink">|</span></span>
-                  </h1>
-                  <h2 className='2xl:text-[32px] xl:text-[30px] lg:text-[28px] md:text-[32px] text-[22px]' >Frontend Developer: Weaving code into attractive website with responsive and visually stunning designs</h2>
-                </div>
-              </div> */}
-              {/* <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-primary2 rounded-md text-white px-10 py-2 2xl:text-[32px] xl:text-[26px] lg:text-[22px] md:text-[48px] text-[32px]">
-                <a href="#about" className='font-anton  btn-2'><span className=' flex items-center justify-center gap-2'><FaArrowDown/>Get to know more</span></a>
-              </div> */}
+           
           </div>
         </div>
     </div>

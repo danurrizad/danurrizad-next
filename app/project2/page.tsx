@@ -4,9 +4,16 @@ import React from 'react'
 import Header2 from '@/components/header2'
 import Footer from '@/components/footer'
 import ScrollToTop from '@/components/scroll_top'
-import { Carousel, IconButton } from "@material-tailwind/react";
 import { FaCircleChevronRight, FaCircleChevronLeft } from "react-icons/fa6";
 import Image from "next/image"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+  } from "@/components/ui/carousel"
+  import Autoplay from "embla-carousel-autoplay"
 
 const Project2 = () => {
   return (
@@ -16,40 +23,39 @@ const Project2 = () => {
             <ScrollToTop />
             <div className='2xl:w-[1200px] w-full h-full bg-primary4 2xl:px-20 xl:px-36 lg:px-32 md:px-24 px-4 py-40 pb-0'>
                 <h1 className='text-center text-[37px] pb-10 font-anton text-primary1'>SkinFirst</h1>
-                <div className='flex justify-center w-full  bg-primary2 p-0 rounded-xl duration-[3000ms]'>
-                    <Carousel prevArrow={({ handlePrev }) => (
-                                            <IconButton
-                                                variant="text"
-                                                // color="black"
-                                                size="lg"
-                                                onClick={handlePrev}
-                                                className="!absolute top-2/4 left-4 -translate-y-2/4"
-                                                placeholder={""}
-                                                >
-                                                <FaCircleChevronLeft className="text-[40px] text-primary2"/>
-                                            </IconButton>
-                                        )}
-                                        nextArrow={({ handleNext }) => (
-                                            <IconButton
-                                                variant="text"
-                                                // color="black"
-                                                size="lg"
-                                                onClick={handleNext}
-                                                className="!absolute top-2/4 !right-4 -translate-y-2/4"
-                                                placeholder={""}
-                                                >
-                                                <FaCircleChevronRight className="text-[40px] text-primary2"/>
-                                            </IconButton>
-                                        )}
-                            loop autoplay className="rounded-xl pb-10 z-0" placeholder={<div>Loading...</div>}>
-                    <Image width={1920} height={1080} src="/img/project-3.png" alt="" className="h-full w-full object-cover"/>
+                <div className='flex justify-center w-full  bg-transparent p-0 rounded-xl duration-[3000ms] overflow-hidden'>
+                    <Carousel
+                        opts={{
+                            align: "start",
+                            loop: true
+                        }}
+                        plugins={[
+                            Autoplay({
+                              delay: 2000,
+                            }),
+                          ]}
+                        className="w-100"
+                        >
+                        <CarouselContent className='h-50'>
+                            { Array.from({ length: 5 }, (_, i) => i + 1).map((number, index)=>(
+                                <CarouselItem key={index}>
+                                    <div className="rounded-xl flex h-full items-center justify-center relative overflow-hidden">
+                                    <Image src={`/img/project2/project-2-${index}.png`} alt={`project2-${index}`} height={800} width={1600} className=''/>
+                                    </div>
+                                </CarouselItem>
+
+                            ))}
+                        </CarouselContent>
+                        <CarouselPrevious />
+                        <CarouselNext />
+                    </Carousel>
+                </div>
+                    {/* <Image width={1920} height={1080} src="/img/project-3.png" alt="" className="h-full w-full object-cover"/>
                     <Image width={1920} height={1080} src="/img/project3/project-3-0.png" alt="" className="h-full w-full object-cover"/>
                     <Image width={1920} height={1080} src="/img/project3/project-3-1.png" alt="" className="h-full w-full object-cover"/>
                     <Image width={1920} height={1080} src="/img/project3/project-3-2.png" alt="" className="h-full w-full object-cover"/>
                     <Image width={1920} height={1080} src="/img/project3/project-3-3.png" alt="" className="h-full w-full object-cover"/>
-                    <Image width={1920} height={1080} src="/img/project3/project-3-4.png" alt="" className="h-full w-full object-cover"/>
-                    </Carousel>
-                </div>
+                    <Image width={1920} height={1080} src="/img/project3/project-3-4.png" alt="" className="h-full w-full object-cover"/> */}
 
                 <section className='pt-20'>
                     <h1 className='font-bold 2xl:text-[34px] md:text-[36px] text-[22px] text-primary1'>Project Overview</h1>
