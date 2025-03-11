@@ -57,7 +57,9 @@ const Project6 = () => {
                 <section className='pt-20'>
                     <h1 className='font-bold 2xl:text-[34px] md:text-[36px] text-[22px] text-primary1'>Project Overview</h1>
                     <p className='2xl:text-[20px] md:text-[27px] text-[17px]'>
-                        This project is a work project from Toyota
+                        This project is a work project from Toyota Motor Manufacturing Indonesia (TMMIN). 
+                        This web-based application is used for monitoring material consumption in car production. 
+                        Real-time monitoring for each calculcation for each materials.
                     </p>
 
                     <h1 className='font-bold 2xl:text-[34px] md:text-[36px] pt-10 text-[22px] text-primary1'>Features App</h1>

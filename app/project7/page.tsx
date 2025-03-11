@@ -58,6 +58,8 @@ const Project7 = () => {
                     <h1 className='font-bold 2xl:text-[34px] md:text-[36px] text-[22px] text-primary1'>Project Overview</h1>
                     <p className='2xl:text-[20px] md:text-[27px] text-[17px]'>
                         This project is a work project from Toyota Motor Manufacturing Indonesia (TMMIN). 
+                        This web-based application used for monitoring vendor arrival and material quantity receiving for every day. 
+                        With ReactJs and CoreUI React, this project completed for approximately 2 months.
                     </p>
 
                     <h1 className='font-bold 2xl:text-[34px] md:text-[36px] pt-10 text-[22px] text-primary1'>Features App</h1>
