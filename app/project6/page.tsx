@@ -76,8 +76,10 @@ const Project6 = () => {
                     <div className='text-primary1 flex-wrap flex justify-start gap-6 2xl:text-[20px] md:text-[27px] text-[17px]'>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md first-slide'>React.js</span>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md first-slide'>Node.js</span>
+                        <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md first-slide'>MS SQL</span>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Bootstrap</span>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Figma</span>
+                        <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Firebase</span>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Github</span>
                     </div>
                     

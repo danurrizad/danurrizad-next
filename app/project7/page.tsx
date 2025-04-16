@@ -76,6 +76,7 @@ const Project7 = () => {
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md first-slide'>React.js</span>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Bootstrap</span>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Figma</span>
+                        <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Firebase</span>
                         <span className='bg-white border-primary1 border-solid border-2 px-4 py-2 rounded-md'>Github</span>
                     </div>
                     

@@ -64,6 +64,14 @@ export default function About() {
                                         <span className="gradient-text">NextJS</span>
                                     </span>
                                     <span className='hover:bg-primary2 hover:border-primary4 text-container border-2 cursor-pointer flex flex-col items-center justify-between bg-primary4 duration-300 2xl:px-4 px-2 py-2 rounded-md'>
+                                        <Image loading='lazy' className='2xl:w-16 xl:w-16 lg:w-14  w-14' width={70} height={70}  src="/img/logo/logo-mssql.png" alt="logo-mssql"/>
+                                        <span className="gradient-text">MS SQL</span>
+                                    </span>
+                                    <span className='hover:bg-primary2 hover:border-primary4 text-container border-2 cursor-pointer flex flex-col items-center justify-between bg-primary4 duration-300 2xl:px-4 px-2 py-2 rounded-md'>
+                                        <Image loading='lazy' className='2xl:w-16 xl:w-16 lg:w-14  w-14' width={70} height={70}  src="/img/logo/logo-mongodb.png" alt="logo-mongodb"/>
+                                        <span className="gradient-text">MongoDB</span>
+                                    </span>
+                                    <span className='hover:bg-primary2 hover:border-primary4 text-container border-2 cursor-pointer flex flex-col items-center justify-between bg-primary4 duration-300 2xl:px-4 px-2 py-2 rounded-md'>
                                         <Image loading='lazy' className='2xl:w-16 xl:w-16 lg:w-14  w-14' width={70} height={70}  src="/img/logo/logo-wordpress.png" alt="logo-wordpress"/>
                                         <span className="gradient-text">Wordpress</span>
                                     </span>
