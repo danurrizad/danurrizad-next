@@ -30,7 +30,7 @@ const Projects = () => {
         <div id='projects' className=' 2xl:w-[1200px] w-full 2xl:px-0 px-4 py-40 '>
             <h1 className='text-center text-primary1 text-[42px] pb-10 font-anton'>Projects</h1>
             <div className='flex flex-col justify-start gap-40'>              
-              { projectsData.projects.map((project, index) => (
+              { [...projectsData.projects].reverse().map((project, index) => (
                 <div key={project.id}>
                     <SlideInAnimation index={index}>
                         <div id={`project${index+1}`} className="2xl:px-20 ">
